@@ -1,0 +1,17 @@
+file-manager/node_modules/
+file-manager/.git/
+file-manager/.github/
+file-manager/.gitignore
+file-manager/LICENSE
+file-manager/README.md
+
+.git/
+.github/
+.gitignore
+Dockerfile*
+LICENSE
+README.md
+
+
+
+
