@@ -1,0 +1,4 @@
+#!/bin/bash
+service nginx start;
+node /opt/file-manager/index.js;
+

@@ -1,0 +1,10 @@
+version: '2'
+services:
+  prototype-cms-mkt:
+    build: .
+    ports:
+      - '881:80'
+      - '8080:8080'
+    volumes:
+      - ./www:/opt/work
+    container_name: prototype-cms-mkt
