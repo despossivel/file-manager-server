@@ -5,7 +5,8 @@ RUN apt update
 RUN apt install nodejs npm -y
 
 
-ENV KEY=5cuwiz2vyehnttceoox5xmbjxdjzgun5
+ENV KEY=e8a9646755c10ed9cc4473afdbb029b8d39351bd
+ENV SESSION_KEY=123456
 
 
 COPY ./entrypoint /opt/file-manager/entrypoint
